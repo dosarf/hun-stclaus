@@ -61,6 +61,7 @@
           d2 d |
         }
         >>
+        \oneVoice
         g2 g
         \repeat volta 2 {
           a8 a fis4 g8 g d4 |
