@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.18.2"
 
 \paper{
   indent=0\mm
@@ -55,9 +55,9 @@
           b4 d c a |
         }
         \new Voice = "second" { \voiceTwo
-          b2 g | g2 e |
+          b4 r g2 | g2 e |
           g2 e | d2 d |
-          b'2 g | g2 e |
+          b'4 r g2 | g2 e |
           d2 d |
         }
         >>
