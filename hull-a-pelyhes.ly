@@ -16,10 +16,11 @@
     \context ChordNames { \chordmode {
       r1 | r1 | r1 | r1 |
 
-      c2 c | f c | d4:m g c a:m | f g c2 |
-      c2 f | c g |
+      c2 c | f2 c | d4:m g c a:m | f4 g c2 |
 
-      c2 c:7 | f c | d4:m g c a:m | f g c2 |
+      c2 g:7 | c2 g |
+
+      c2 c:7 | f2 c | d4:m g c a:m | f4 g c2 |
     } }
     \new Staff \with {
       instrumentName = #"Violin"
@@ -58,34 +59,39 @@
         | r1 | r1 | r1 | r1 | \break
 
         \repeat volta 2 {
-          c4 c
           <<
-          { g' g | a4 a g2 }
-          \\
-          { e2 | f2 e }
+            { c'2 g' | f2 e |
+              f2 e |
+            }
+            \\
+            { r4 g, r g | r4 a r g |
+              r4 g r c |
+            }
           >>
           \oneVoice
-          f4 f e e | d d c2
+          a4 b c2
         }
 
         \repeat volta 2 {
           <<
-            { g'4 g f f }
+            { g'2 f | e2 d | }
             \\
-            { e2 a, }
+            { r4 g, r g | r4 g r g | }
           >>
           \oneVoice
-          | e'4 e d2 |
         }
 
-        c4 c
         <<
-        { g' g | a4 a g2 }
-        \\
-        { e2 | f2 e }
+          { c2 g' | f2 e |
+            f2 e |
+          }
+          \\
+          { r4 g, r g | r4 a r g |
+            r4 g r c |
+          }
         >>
         \oneVoice
-        f4 f e e | d d c2 \bar "||"
+        a4 b c2  \bar "||"
       }
     >>
 
@@ -131,5 +137,5 @@
     }
   }
 
-  \header { piece = "Hull a pelyhes (bev. cselló, 2 versszak), 2019v2" }
+  \header { piece = "Hull a pelyhes (2x), 2019v3" }
 }

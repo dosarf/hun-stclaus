@@ -56,14 +56,14 @@
           \clef treble
           \key c \major
           \time 2/4
-          c'8 c c c | c d e4 |
-          e8 e f e | d4 d |
-          c8 c c c | c d e4 |
-          e8 e f e | d4 d |
-          c8 c c c | c d e4 |
-          e8 e f e | d4 d |
-          c8 c c c | c d e4 |
-          e8 e f e | d4 d \bar "||"
+          c'4 c | c8 (b) c4 |
+          <e c>4 f8 (e) | d4 b |
+          c4 c | c8 (b) c4 |
+          <e c>4 f8 (e) | d4 b |
+          c4 c | c8 (b) c4 |
+          <e c>4 f8 (e) | d4 b |
+          c4 c | c8 (b) c4 |
+          <e c>4 f8 (e) | d4 b \bar "||"
         }
       }
       \new Voice {
@@ -73,14 +73,14 @@
           \clef treble
           \key c \major
           \time 2/4
-          e2 | g4 c |
-          c4 a4 | g4 g |
-          e2 | g4 c |
-          c4 a4 | g4 g |
-          e2 | g4 c |
-          c4 a4 | g4 g |
-          e2 | a4 c |
-          c4 a4 | g4 g |
+          r8 g' r g | r4 r8 g |
+          r8 g r4 | r8 g r g |
+          r8 g r g | r4 r8 g |
+          r8 g r4 | r8 g r g |
+          r8 g r g | r4 r8 g |
+          r8 g r4 | r8 g r g |
+          r8 a r a | r4 r8 g |
+          r8 g r4 | r8 g r g |
         }
       }
     >>
@@ -124,5 +124,5 @@
     }
   }
 
-  \header { piece = "Betemetett a nagy hó (nincs bev., 2x), 2019v2" }
+  \header { piece = "Betemetett a nagy hó (nincs bev., 2x), 2019v3" }
 }

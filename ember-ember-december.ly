@@ -51,26 +51,28 @@
         \time 4/4
         <<
         \new Voice = "first" { \voiceOne
-          g''4 d e c | b8 d4. c2 |
-          b8 d4. c4 b | a2 a |
-          g'4 d e c | b8 d4. c2 |
-          b4 d c a |
+          g''4 d e c | b4 d c2 |
+          b4 d c b | a2 a |
+          g'4 d e c | b4 d c2 |
+          b4 d c a | g2 g |
+
+          \repeat volta 2 {
+            c4 a b g | c4 a b g |
+            c4 a b g | a4 a g g
+          }
         }
         \new Voice = "second" { \voiceTwo
-          b4 r g2 | g2 e |
-          g2 e | d2 d |
-          b'4 r g2 | g2 e |
-          d2 d |
+          r8 g r g r g r g | r8 g r g r4 g |
+          r8 g r g r g r g | r4 d r2 |
+          r8 g r g r g r g | r8 g r g r4 g |
+          r8 g r g r d r d | r4 d r2 |
+
+          \repeat volta 2 {
+            r8 d r d r d r d | r8 d r d r d r d |
+            r8 d r d r d r d | r8 d r d r d r4 |
+          }
         }
         >>
-        \oneVoice
-        g2 g
-        \repeat volta 2 {
-          a8 a fis4 g8 g d4 |
-          a'8 a fis4 g8 g d4 |
-          a'8 a fis4 g8 g d4 |
-          d4 d g8 g g4
-        }
       }
     >>
 
@@ -114,5 +116,5 @@
     }
   }
 
-  \header { piece = "Ember, ember, december (nincs bev., 2x), 2019v2" }
+  \header { piece = "Ember, ember, december (nincs bev., 2x), 2019v3" }
 }
