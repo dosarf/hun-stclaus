@@ -1,13 +1,15 @@
 \version "2.18.2"
 
 \paper{
-  indent=0\mm
-  line-width=120\mm
+  indent=10\mm
+  line-width=160\mm
   oddFooterMarkup=##f
-  % oddHeaderMarkup=##f
+  %oddHeaderMarkup=##f
   bookTitleMarkup = ##f
-  % scoreTitleMarkup = ##f
+  %scoreTitleMarkup = ##f
 }
+
+#(set-global-staff-size 26)
 
 \score {
   <<
@@ -23,8 +25,8 @@
     } }
 
     \new Staff \with {
-      instrumentName = #"Violin/Recorder"
-      shortInstrumentName = #"V/R"
+      instrumentName = #"Violin"
+      shortInstrumentName = #"V"
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
@@ -33,11 +35,11 @@
         \key c \major
         \time 2/4
         c'8 c c c | c d e4 |
-        e8 e f e | d4 d |
+        e8 e f e | d4 d | \break
         c8 c c c | c d e4 |
-        e8 e f e | d4 d |
+        e8 e f e | d4 d | \break
         c8 c c c | c d e4 |
-        e8 e f e | d4 d |
+        e8 e f e | d4 d | \break
         c8 c c c | c d e4 |
         e8 e f e | d4 d \bar "||"
       }
@@ -122,5 +124,5 @@
     }
   }
 
-  \header { piece = "Betemetett a nagy hó (nincs bev., 2x), 2019v1" }
+  \header { piece = "Betemetett a nagy hó (nincs bev., 2x), 2019v2" }
 }

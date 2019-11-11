@@ -1,13 +1,15 @@
 \version "2.18.2"
 
 \paper{
-  indent=0\mm
-  line-width=120\mm
+  indent=10\mm
+  line-width=160\mm
   oddFooterMarkup=##f
   %oddHeaderMarkup=##f
   bookTitleMarkup = ##f
   %scoreTitleMarkup = ##f
 }
+
+#(set-global-staff-size 26)
 
 \score {
   <<
@@ -20,8 +22,8 @@
       c2 c:7 | f c | d4:m g c a:m | f g c2 |
     } }
     \new Staff \with {
-      instrumentName = #"Violin/Recorder"
-      shortInstrumentName = #"V/R"
+      instrumentName = #"Violin"
+      shortInstrumentName = #"V"
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
@@ -33,7 +35,7 @@
         | r1 | r1 | r1 | r1 | \break
 
         \repeat volta 2 { c'4 c g' g | a a g2 |
-        f4 f e e | d d c2 }
+        f4 f e e | d d c2 } \break
 
         \repeat volta 2 {
         g'4 g f f | e e d2 }
@@ -129,5 +131,5 @@
     }
   }
 
-  \header { piece = "Hull a pelyhes (bev. cselló, 2 versszak), 2019v1" }
+  \header { piece = "Hull a pelyhes (bev. cselló, 2 versszak), 2019v2" }
 }

@@ -1,13 +1,15 @@
 \version "2.18.2"
 
 \paper{
-  indent=0\mm
-  line-width=120\mm
+  indent=10\mm
+  line-width=160\mm
   oddFooterMarkup=##f
   %oddHeaderMarkup=##f
   bookTitleMarkup = ##f
   %scoreTitleMarkup = ##f
 }
+
+#(set-global-staff-size 26)
 
 guitarSymbols = {
     \time 2/4
@@ -22,8 +24,8 @@ guitarSymbols = {
       f4 a:m/e | d:m7 f/c | a:m bes | c f
     } }
     \new Staff \with {
-      instrumentName = #"Violin/Recorder"
-      shortInstrumentName = #"V/R"
+      instrumentName = #"Violin"
+      shortInstrumentName = #"V"
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
@@ -95,5 +97,5 @@ guitarSymbols = {
     }
   }
 
-  \header { piece = "Suttog a fenyves (bev.: furulya versszak, 6x), 2019v1" }
+  \header { piece = "Suttog a fenyves (bev.: furulya versszak, 6x), 2019v2" }
 }

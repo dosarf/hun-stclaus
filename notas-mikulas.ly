@@ -1,13 +1,15 @@
 \version "2.18.2"
 
 \paper{
-  indent=0\mm
-  line-width=120\mm
+  indent=10\mm
+  line-width=160\mm
   oddFooterMarkup=##f
   %oddHeaderMarkup=##f
   bookTitleMarkup = ##f
   %scoreTitleMarkup = ##f
 }
+
+#(set-global-staff-size 26)
 
 \score {
   <<
@@ -23,8 +25,8 @@
      g2 | c2
     } }
     \new Staff \with {
-      instrumentName = #"Violin/Recorder"
-      shortInstrumentName = #"V/R"
+      instrumentName = #"Violin"
+      shortInstrumentName = #"V"
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
@@ -33,7 +35,7 @@
         \key c \major
         \time 2/4
         g''4 e | f8 e d4\fermata |
-        r2 | r2 |
+        r2 | r2 | \break
         r2 | r2 |
         g8 e d4 | c4 c
 
@@ -110,6 +112,6 @@
     }
   }
 
-  \header { piece = "Nótás Mikulás (3x dallam, legvégén utolsó 4 ütem), 2019v1" }
+  \header { piece = "Nótás Mikulás (3x dallam, legvégén utolsó 4 ütem), 2019v2" }
 
 }
