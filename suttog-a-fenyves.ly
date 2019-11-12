@@ -43,11 +43,26 @@ guitarSymbols = {
     } <<
       \new Voice {  \relative c' {
         \set midiInstrument = #"acoustic guitar (nylon)"
+        \voiceOne
         \clef treble
         \key f \major
         \time 2/4
-        a'8 a16 a a8 a | a f c4 |
-        e8 e d d | e8 e c4 \bar "||"
+
+        c'4 c | c4 c |
+        c4 d | e4 f \bar "||"
+
+        \bar "||"
+      } }
+
+      \new Voice {  \relative c' {
+        \set midiInstrument = #"acoustic guitar (nylon)"
+        \voiceTwo
+        \clef treble
+        \key f \major
+        \time 2/4
+
+        f4 e | d4 c |
+        e4 f | g4 a \bar "||"
       } }
     >>
 
@@ -97,5 +112,5 @@ guitarSymbols = {
     }
   }
 
-  \header { piece = "Suttog a fenyves (bev.: furulya versszak, 6x), 2019v2" }
+  \header { piece = "Suttog a fenyves (bev.: furulya versszak, 6x), 2019v3" }
 }
