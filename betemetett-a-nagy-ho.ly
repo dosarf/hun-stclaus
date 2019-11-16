@@ -30,7 +30,6 @@
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
-        \voiceOne
         \clef treble
         \key c \major
         \time 2/4
@@ -92,7 +91,6 @@
       \new Voice
       { \relative c' {
         \set midiInstrument = #"cello"
-        \voiceOne
         \clef bass
         \key c \major
         \time 2/4
@@ -124,5 +122,5 @@
     }
   }
 
-  \header { piece = "Betemetett a nagy hó (nincs bev., 2x), 2019v3" }
+  \header { piece = "Betemetett a nagy hó (nincs bev., 2x), 2019v4" }
 }

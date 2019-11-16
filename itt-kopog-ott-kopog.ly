@@ -22,7 +22,6 @@
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
-        \voiceOne
         \clef treble
         \key c \major
         \time 2/4
@@ -79,6 +78,6 @@
     }
   }
 
-  \header { piece = "Itt kopog, ott kopog (nincs bev., sokszor), 2019v2" }
+  \header { piece = "Itt kopog, ott kopog (nincs bev., sokszor), 2019v3" }
 
 }

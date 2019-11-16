@@ -25,7 +25,6 @@
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
-        \voiceOne
         \clef treble
         \key g \major
         \time 4/4
@@ -82,7 +81,6 @@
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"cello"
-        \voiceOne
         \clef bass
         \key g \major
         \time 4/4
@@ -116,5 +114,5 @@
     }
   }
 
-  \header { piece = "Ember, ember, december (nincs bev., 2x), 2019v3" }
+  \header { piece = "Ember, ember, december (nincs bev., 2x), 2019v4" }
 }

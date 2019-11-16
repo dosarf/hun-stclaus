@@ -28,7 +28,6 @@
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
-        \voiceOne
         \clef treble
         \key c \major
         \time 4/4
@@ -101,7 +100,6 @@
     } <<
       \new Voice \relative c, {
         \set midiInstrument = #"cello"
-        \voiceOne
         \clef bass
         \key c \major
         \time 4/4
@@ -137,5 +135,5 @@
     }
   }
 
-  \header { piece = "Hull a pelyhes (2x), 2019v3" }
+  \header { piece = "Hull a pelyhes (2x), 2019v4" }
 }

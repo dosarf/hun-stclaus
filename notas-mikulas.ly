@@ -30,7 +30,6 @@
     } <<
       \new Voice \relative c' {
         \set midiInstrument = #"violin"
-        \voiceOne
         \clef treble
         \key c \major
         \time 2/4
@@ -55,7 +54,6 @@
     } <<
       \new Voice { \relative c' {
         \set midiInstrument = #"acoustic guitar (nylon)"
-        %\voiceOne
         \clef treble
         \key c \major
         \time 2/4
@@ -97,7 +95,6 @@
     } <<
       \new Voice { \relative c' {
         \set midiInstrument = #"cello"
-        %\voiceOne
         \clef bass
         \key c \major
         \time 2/4
@@ -131,6 +128,6 @@
     }
   }
 
-  \header { piece = "Nótás Mikulás (3x dallam, legvégén utolsó 4 ütem), 2019v3" }
+  \header { piece = "Nótás Mikulás (3x dallam, legvégén utolsó 4 ütem), 2019v4" }
 
 }
