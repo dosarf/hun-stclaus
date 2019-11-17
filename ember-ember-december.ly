@@ -50,10 +50,10 @@
         \time 4/4
         <<
         \new Voice = "first" { \voiceOne
-          g''4 d e c | b4 d c2 |
-          b4 d c b | a2 a |
-          g'4 d e c | b4 d c2 |
-          b4 d c a | g2 g |
+          g''4 d e c | b4 d c c |
+          b4 d c b | a4 a a2 |
+          g'4 d e c | b4 d c c |
+          b4 d c a | g g g2 |
 
           \repeat volta 2 {
             c4 a b g | c4 a b g |
@@ -61,10 +61,10 @@
           }
         }
         \new Voice = "second" { \voiceTwo
-          r8 g r g r g r g | r8 g r g r4 g |
-          r8 g r g r g r g | r4 d r2 |
-          r8 g r g r g r g | r8 g r g r4 g |
-          r8 g r g r d r d | r4 d r2 |
+          r8 g r g r g r g | r8 g r g r g r4 |
+          r8 g r g r g r g | r8 d r8 d r2 |
+          r8 g r g r g r g | r8 g r g r g r4 |
+          r8 g r g r d r d | r8 d r d r2 |
 
           \repeat volta 2 {
             r8 d r d r d r d | r8 d r d r d r d |
@@ -114,5 +114,5 @@
     }
   }
 
-  \header { piece = "Ember, ember, december (nincs bev., 2x), 2019v4" }
+  \header { piece = "Ember, ember, december (nincs bev., 2x), 2019v5" }
 }
