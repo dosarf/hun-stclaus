@@ -63,7 +63,7 @@
               f2 e |
             }
             \\
-            { r4 g, r g | r4 a r g |
+            { r4 g, r g | r4 g r g |
               r4 g r c |
             }
           >>
@@ -85,7 +85,7 @@
             f2 e |
           }
           \\
-          { r4 g, r g | r4 a r g |
+          { r4 g, r g | r4 g r g |
             r4 g r c |
           }
         >>
@@ -135,5 +135,5 @@
     }
   }
 
-  \header { piece = "Hull a pelyhes (2x), 2019v4" }
+  \header { piece = "Hull a pelyhes (2x), 2019v5" }
 }

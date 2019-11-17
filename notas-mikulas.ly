@@ -61,11 +61,11 @@
         r2 | r2 |
         <<
           { c'8 d e4 | f4 f\fermata |
-            b,8 b r4 | g4 g4 |
+            b,8 b r4 | c4 c4 |
           }
           \\
-          { e8 f g4 | a4 a |
-            g8 g g,4 | c4 c |
+          { e,8 f g4 | a4 a |
+            g8 g g,4 | g'4 g |
           }
         >>
         \oneVoice
@@ -75,13 +75,13 @@
             { e'4 c | f8 (e) d4 |
               e4 c | f8 (e) d4 |
               c8 d e4 | f4 f |
-              b,8 b r4 | g4 g4 |
+              b,8 b r4 | c4 c4 |
             }
             \\
             { r8 g8 r g | r4 r8 g |
               r8 g8 r g | r4 r8 g |
               e8 f g4 | a4 a |
-              g8 g g,4 | c4 c |
+              g8 g g,4 | g'4 g |
             }
           >>
         }
@@ -128,6 +128,6 @@
     }
   }
 
-  \header { piece = "Nótás Mikulás (3x dallam, legvégén utolsó 4 ütem), 2019v4" }
+  \header { piece = "Nótás Mikulás (3x dallam, legvégén utolsó 4 ütem), 2019v5" }
 
 }
